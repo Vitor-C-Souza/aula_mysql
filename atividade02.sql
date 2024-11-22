@@ -2,7 +2,7 @@ CREATE DATABASE db_ecommerce;
 
 use db_ecommerce;
 
-CREATE TABLE Produto (
+CREATE TABLE tb_produto (
     id INT AUTO_INCREMENT PRIMARY KEY,    
     nome VARCHAR(100) NOT NULL,             
     descricao TEXT NOT NULL,                
@@ -25,4 +25,4 @@ SELECT * FROM tb_produto WHERE preco > 500;
 
 SELECT * FROM tb_produto WHERE preco < 500;
 
-UPDATE Produto SET preco = 100 WHERE id = 3;
+UPDATE tb_produto SET preco = 100 WHERE id = 3;
