@@ -21,6 +21,6 @@ SELECT * FROM tb_funcionario WHERE salario > 2000;
 
 SELECT * FROM tb_funcionario WHERE salario < 2000;
 
-UPDATE Funcionario SET nome = "Marcela" WHERE id = 5;
+UPDATE tb_funcionario SET nome = "Marcela" WHERE id = 5;
 
 
