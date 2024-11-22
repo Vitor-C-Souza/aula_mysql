@@ -1,6 +1,6 @@
-CREATE DATABASE db_empresaex01;
+CREATE DATABASE db_empresa;
 
-use db_empresaex01;
+use db_empresa;
 
 CREATE TABLE tb_funcionario (
     id INT AUTO_INCREMENT PRIMARY KEY,    
