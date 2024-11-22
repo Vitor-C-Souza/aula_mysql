@@ -2,7 +2,7 @@ CREATE DATABASE db_empresaex01;
 
 use db_empresaex01;
 
-CREATE TABLE Funcionario (
+CREATE TABLE tb_funcionario (
     id INT AUTO_INCREMENT PRIMARY KEY,    
     nome VARCHAR(100) NOT NULL,              
     cargo VARCHAR(50) NOT NULL,              
