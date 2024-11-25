@@ -33,9 +33,7 @@ INSERT INTO tb_produtos (nome, descricao, estoque, preco, categoriaid) VALUES
 ('Creatina', 'Suplemento alimentar para aumento de massa muscular', 40, 89.90, 3),
 ('Multivitamínico', 'Suplemento com vitaminas e minerais', 60, 49.90, 3),
 ('Creme Anti-Rugas', 'Creme facial anti-rugas para pele madura', 30, 65.00, 4),
-('Protetor Solar', 'Protetor solar fator 50, pele oleosa', 120, 39.90, 4),
-('Fralda Descartável', 'Fralda descartável tamanho M para bebês', 200, 35.90, 5),
-('Pomada para Assaduras', 'Pomada para prevenir e tratar assaduras de bebês', 90, 55.90, 5);
+('Protetor Solar', 'Protetor solar fator 50, pele oleosa', 120, 39.90, 4);
 
 
 SELECT * FROM tb_produtos WHERE preco > 50.00;
